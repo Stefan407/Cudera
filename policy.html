@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy policy</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrap container">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+        </div>
+    </header>
+    <div class="top_section">
+        <div class="top_section_wrap container">
+            <div class="top_section_left">
+                <h1 class="title">Privacy policy</h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrap">
+                <div class="text_left">© <span class="year"></span> ⋅ Cudera AG</div>
+                <a href="policy.html" class="text_right">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            var date = new Date();
+            document.querySelector(".year").innerHTML = date.getFullYear();
+        });
+    </script>
+</body>
+
+</html>
